@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: springgreen;
+    background-color: grey;
 }
 .nav{
     margin: auto;
@@ -11,7 +11,6 @@
     font-size: 20px;
 }
 .nav ul{
-    background: #7f8c8d;
     list-style: none;
     position: relative;
     display: inline-table;
@@ -44,12 +43,11 @@
     text-decoration: none;
 }
 .menu {
-    background-color: grey;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
+    display: block;
+    padding: 0px;
+    color: #bdc3c7;
+    text-decoration: none;
+
 }
  
 .menu:hover {
